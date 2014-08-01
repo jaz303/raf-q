@@ -1,5 +1,5 @@
-module.exports = function() {
-    return new Queue();
+module.exports = function(exec) {
+    return new Queue(exec);
 }
 
 var raf = window.requestAnimationFrame

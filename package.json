@@ -1,0 +1,24 @@
+{
+  "name": "raf-q",
+  "version": "0.0.0",
+  "description": "Enqueue operations for later processing in a requestAnimationFrame() callback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/raf-q.git"
+  },
+  "keywords": [
+    "raf",
+    "queue",
+    "requestAnimationFrame"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaz303/raf-q/issues"
+  },
+  "homepage": "https://github.com/jaz303/raf-q"
+}

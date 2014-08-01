@@ -2,6 +2,22 @@
 
 Enqueue operations for later processing in a requestAnimationFrame() callback.
 
+## Installation
+
+## npm/browserify
+
+Get it:
+
+    npm install --save raf-q
+
+Require it:
+
+    var rafq = require('raf-q');
+
+## UMD
+
+Copy and paste either `build/dom-q.js` or `build/dom-q.min.js` into your project.
+
 ### API
 
 #### `var q = rafq(exec)`

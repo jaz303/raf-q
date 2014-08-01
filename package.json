@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jaz303/raf-q/issues"
   },
-  "homepage": "https://github.com/jaz303/raf-q"
+  "homepage": "https://github.com/jaz303/raf-q",
+  "devDependencies": {
+    "tape": "^2.13.4",
+    "uglify-js": "^2.4.15"
+  }
 }

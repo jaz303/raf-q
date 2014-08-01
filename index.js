@@ -6,10 +6,13 @@ var raf = window.requestAnimationFrame
             || window.webkitRequestAnimationFrame
             || window.mozRequestAnimationFrame;
 
+raf = raf ? raf.bind(window) : function(fn) { return setTimeout(fm, 16); };
+
 function Queue(exec) {
     this._ops = [];
     this._timer = null;
     this._drainMethod = this._drain.bind(this);
+    this._exec = exec;
 }
 
 Queue.prototype._drain = function() {

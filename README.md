@@ -10,4 +10,4 @@ Create a queue with given executor function `exec`.
 
 #### `q.push(op)`
 
-Enqueue operation `op` for processing.
+Enqueue operation `op` for processing. Each time the queue is drained the executor function passed to the constructor will be invoked sequentially, receiving each queued operation as parameter.

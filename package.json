@@ -1,6 +1,6 @@
 {
   "name": "raf-q",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Enqueue operations for later processing in a requestAnimationFrame() callback",
   "main": "index.js",
   "scripts": {

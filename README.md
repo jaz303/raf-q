@@ -28,6 +28,10 @@ Create a queue with given executor function `exec`.
 
 Enqueue operation `op` for processing. Each time the queue is drained the executor function passed to the constructor will be invoked sequentially, receiving each queued operation as parameter.
 
+#### `q.after(cb)`
+
+Enqueue callback function `cb` to be called during the next processing batch, once all other operations in the queue have been applied.
+
 ## Copyright &amp; License
 
 &copy; 2014 Jason Frame [ [@jaz303](http://twitter.com/jaz303) / [jason@onehackoranother.com](mailto:jason@onehackoranother.com) ]

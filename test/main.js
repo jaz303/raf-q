@@ -11,16 +11,16 @@ window.init = function() {
 			i += x;
 		});
 
+		q.after(function() {
+			assert.ok(i === 'abc');
+			assert.end();
+		});
+
 		q.push('a');
 		q.push('b');
 		q.push('c');
 
 		assert.ok(i === '');
-
-		setTimeout(function() {
-			assert.ok(i === 'abc');
-			assert.end();
-		}, 500);
 
 	});
 
